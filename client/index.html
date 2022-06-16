@@ -5,10 +5,25 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Twitter For Cats</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header>
-            <h1>Meower</h1>
+            <h1 class="title">Meower : Twitter for cats</h1>
         </header>
+        <main>
+            <form class="osm-form">
+                <label for="name">Name</label>
+                <input class="u-full-width" type="text" id="name" name="name">
+                <label for="content">Content</label>
+                <input class="u-full-width" type="text" id="content" name="content">
+                <button class="button-primary">Send your Mew</button>
+            </form>
+            <div class="loading">
+                <img src="loading.gif">
+            </div>
+        </main>
+        <script src="client.js"></script>
     </body>
 </html>

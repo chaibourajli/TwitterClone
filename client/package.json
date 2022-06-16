@@ -4,6 +4,6 @@
   "requires": true,
   "packages": {},
   "dependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.1.0"
   }
 }
