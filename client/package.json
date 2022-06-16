@@ -1,0 +1,9 @@
+{
+  "name": "client",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {},
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
